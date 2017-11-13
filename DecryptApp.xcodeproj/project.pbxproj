@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF99BF801FB55C4E005F274E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99BF7F1FB55C4E005F274E /* Foundation.framework */; };
+		BF99BF881FB55C4E005F274E /* DecryptApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF99BF871FB55C4E005F274E /* DecryptApp.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF99BF7C1FB55C4E005F274E /* DecryptApp.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = DecryptApp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF99BF7F1FB55C4E005F274E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF99BF841FB55C4E005F274E /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		BF99BF861FB55C4E005F274E /* DecryptApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DecryptApp-Prefix.pch"; sourceTree = "<group>"; };
+		BF99BF871FB55C4E005F274E /* DecryptApp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DecryptApp.mm; sourceTree = "<group>"; };
+		BF99BF8C1FB55C4E005F274E /* DecryptApp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = DecryptApp.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/DecryptApp.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF99BF781FB55C4E005F274E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF99BF801FB55C4E005F274E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF99BF721FB55C4D005F274E = {
+			isa = PBXGroup;
+			children = (
+				BF99BF811FB55C4E005F274E /* DecryptApp */,
+				BF99BF7E1FB55C4E005F274E /* Frameworks */,
+				BF99BF7D1FB55C4E005F274E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF99BF7D1FB55C4E005F274E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF99BF7C1FB55C4E005F274E /* DecryptApp.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF99BF7E1FB55C4E005F274E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF99BF7F1FB55C4E005F274E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF99BF811FB55C4E005F274E /* DecryptApp */ = {
+			isa = PBXGroup;
+			children = (
+				BF99BF871FB55C4E005F274E /* DecryptApp.mm */,
+				BF99BF821FB55C4E005F274E /* Package */,
+				BF99BF851FB55C4E005F274E /* Supporting Files */,
+			);
+			path = DecryptApp;
+			sourceTree = "<group>";
+		};
+		BF99BF821FB55C4E005F274E /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				BF99BF831FB55C4E005F274E /* DEBIAN */,
+				BF99BF891FB55C4E005F274E /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		BF99BF831FB55C4E005F274E /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				BF99BF841FB55C4E005F274E /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		BF99BF851FB55C4E005F274E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF99BF861FB55C4E005F274E /* DecryptApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF99BF891FB55C4E005F274E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BF99BF8A1FB55C4E005F274E /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		BF99BF8A1FB55C4E005F274E /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				BF99BF8B1FB55C4E005F274E /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		BF99BF8B1FB55C4E005F274E /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				BF99BF8C1FB55C4E005F274E /* DecryptApp.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BF99BF791FB55C4E005F274E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BF99BF7B1FB55C4E005F274E /* DecryptApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF99BF8F1FB55C4E005F274E /* Build configuration list for PBXNativeTarget "DecryptApp" */;
+			buildPhases = (
+				BF99BF771FB55C4E005F274E /* Sources */,
+				BF99BF781FB55C4E005F274E /* Frameworks */,
+				BF99BF791FB55C4E005F274E /* Headers */,
+				BF99BF7A1FB55C4E005F274E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecryptApp;
+			productName = DecryptApp;
+			productReference = BF99BF7C1FB55C4E005F274E /* DecryptApp.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF99BF731FB55C4D005F274E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					BF99BF7B1FB55C4E005F274E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF99BF761FB55C4D005F274E /* Build configuration list for PBXProject "DecryptApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF99BF721FB55C4D005F274E;
+			productRefGroup = BF99BF7D1FB55C4E005F274E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF99BF7B1FB55C4E005F274E /* DecryptApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF99BF7A1FB55C4E005F274E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF99BF771FB55C4E005F274E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF99BF881FB55C4E005F274E /* DecryptApp.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF99BF8D1FB55C4E005F274E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"DecryptApp\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF99BF8E1FB55C4E005F274E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"DecryptApp\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		BF99BF901FB55C4E005F274E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX337297RV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecryptApp/DecryptApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = localhost;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = WeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF99BF911FB55C4E005F274E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VX337297RV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecryptApp/DecryptApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = localhost;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = WeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF99BF761FB55C4D005F274E /* Build configuration list for PBXProject "DecryptApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF99BF8D1FB55C4E005F274E /* Release */,
+				BF99BF8E1FB55C4E005F274E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF99BF8F1FB55C4E005F274E /* Build configuration list for PBXNativeTarget "DecryptApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF99BF901FB55C4E005F274E /* Release */,
+				BF99BF911FB55C4E005F274E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF99BF731FB55C4D005F274E /* Project object */;
+}
