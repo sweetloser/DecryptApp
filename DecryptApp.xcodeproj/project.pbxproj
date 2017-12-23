@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF7AABB41FED36E300344157 /* CaptainHook.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7AABB31FED36E200344157 /* CaptainHook.h */; };
 		BF99BF801FB55C4E005F274E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99BF7F1FB55C4E005F274E /* Foundation.framework */; };
 		BF99BF881FB55C4E005F274E /* DecryptApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF99BF871FB55C4E005F274E /* DecryptApp.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF7AABB31FED36E200344157 /* CaptainHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptainHook.h; sourceTree = "<group>"; };
 		BF99BF7C1FB55C4E005F274E /* DecryptApp.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = DecryptApp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF99BF7F1FB55C4E005F274E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF99BF841FB55C4E005F274E /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				BF99BF871FB55C4E005F274E /* DecryptApp.mm */,
+				BF7AABB31FED36E200344157 /* CaptainHook.h */,
 				BF99BF821FB55C4E005F274E /* Package */,
 				BF99BF851FB55C4E005F274E /* Supporting Files */,
 			);
@@ -123,6 +126,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7AABB41FED36E300344157 /* CaptainHook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
