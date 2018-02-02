@@ -10,7 +10,7 @@ CLANG_UNIVERSAL=$(CLANG_BASE) -arch armv7 -arch armv7s -arch arm64
 SDK=`xcrun --sdk iphoneos --show-sdk-path`
 
 #编译参数
-CFLAGS = 
+CFLAGS=
 
 PLIST_TOOL=/usr/libexec/PlistBuddy
 

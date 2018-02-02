@@ -2,13 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Filter</key>
+	<key>SchemeUserState</key>
 	<dict>
-		<key>Bundles</key>
-		<array>
-			<string>com.tencent.xin</string>
-			<string>com.johnstephen.ShadowProxy</string>
-		</array>
+		<key>DecryptApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>
